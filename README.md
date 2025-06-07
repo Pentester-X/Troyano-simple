@@ -24,6 +24,6 @@ Este código contiene una reverse shell que se conecta automáticamente a una di
 - `pygame`  
   Puedes instalarlo con:
 
-´´bash
+bash
 
 pip install pygame
