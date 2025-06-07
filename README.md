@@ -26,4 +26,4 @@ Este código contiene una reverse shell que se conecta automáticamente a una di
 
 bash
 
-pip install pygame --break-system-packages
+pip install pygame
